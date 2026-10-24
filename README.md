@@ -1,1 +1,86 @@
-# edunote-releases
+<p align="center">
+  <img src="icon.png" width="96" alt="">
+</p>
+
+<h1 align="center">EduNote</h1>
+
+<p align="center">
+  Study notes for a tablet with a stylus and for the computer: handwriting on A4 pages, live Markdown,
+  a PDF reader beside the note, flashcards and an AI assistant.
+</p>
+
+<p align="center">
+  <a href="https://github.com/D3anDark/edunote-releases/releases/latest"><img src="https://img.shields.io/github/v/release/D3anDark/edunote-releases?label=version" alt="Latest version"></a>
+  <a href="https://github.com/D3anDark/edunote-releases/releases"><img src="https://img.shields.io/github/downloads/D3anDark/edunote-releases/total" alt="Downloads"></a>
+</p>
+
+<p align="center"><b>English</b> · <a href="README.pl.md">Polski</a></p>
+
+## Download
+
+| System | File | |
+|---|---|---|
+| Android (most phones and tablets) | `app-arm64-v8a-release.apk` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/app-arm64-v8a-release.apk) |
+| Android (older 32-bit devices) | `app-armeabi-v7a-release.apk` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/app-armeabi-v7a-release.apk) |
+| Android (x86_64, emulator) | `app-x86_64-release.apk` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/app-x86_64-release.apk) |
+| Linux (x86_64) | `EduNote-x86_64.AppImage` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-x86_64.AppImage) |
+| Windows (x64) | `EduNote-windows-x64.zip` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-windows-x64.zip) |
+| macOS | `EduNote-macos.zip` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-macos.zip) |
+
+Every version, with what changed, is on the [releases page](https://github.com/D3anDark/edunote-releases/releases).
+
+## Install
+
+**Android.** Open the APK and allow your browser or file manager to install apps when Android asks.
+
+**Linux.** Make the file executable and run it:
+
+```sh
+chmod +x EduNote-x86_64.AppImage
+./EduNote-x86_64.AppImage
+```
+
+If it does not start, run it with `--appimage-extract-and-run`.
+
+**Windows.** Unzip the folder anywhere and run `edunote.exe`. The app is not signed, so SmartScreen may warn:
+choose *More info*, then *Run anyway*.
+
+**macOS.** Unzip and move `edunote.app` to *Applications*. The app is not signed: if macOS blocks it, open
+*System Settings*, *Privacy & Security*, and choose *Open Anyway*.
+
+Windows and macOS builds are compiled on every release but not yet tested on real machines.
+
+## Updates
+
+The app checks this page when it starts and offers a new version when there is one; *Settings* (*Ustawienia*),
+*Updates* (*Aktualizacje*) checks on demand. On Android it downloads the APK and opens the system installer; the
+AppImage replaces itself and starts as the new version next time. Windows and macOS link here. Your notes stay in
+every case.
+
+## What it does
+
+- **Mixed notes**: A4 pages with typed text and handwriting together. Pen, highlighter, eraser and lasso; plain, lined,
+  squared or dotted paper. A held stroke straightens into a line, ellipse or rectangle. Import a PDF as page background,
+  export to PDF with real text and the ink on top.
+- **Text notes**: Markdown shown as you type, like Obsidian. LaTeX formulas, Mermaid flowcharts, tables edited in
+  place, images, checklists and a slide-by-slide presentation mode.
+- **PDF reader beside the note**: search, highlights in six colours, quotes with a link to the page, the book's own page
+  numbers. Scans can be recognised with OCR on the computer (needs [Tesseract](https://tesseract-ocr.github.io/)).
+- **Order**: folders, pins, `#tags`, `[[links]]` between notes, full-text search, a trash kept for 30 days and templates
+  (lecture, Cornell method, lab report, lesson plan, test and more).
+- **Review**: tasks with due dates collected from all notes, flashcards from `question :: answer` lines and
+  `{{cloze}}` gaps with spaced repetition, every highlight in one list.
+- **AI assistant**: Gemini, Claude or any OpenAI-compatible server, including local ones like Ollama and LM Studio, with
+  your own key.
+
+## Your data
+
+Notes stay on your device in a local database; the app keeps no account and no cloud copy. It goes online only to the
+AI provider you set up and to this page to check for updates. A backup zip, a daily backup inside the app and export to
+Markdown files are in *Settings* (*Ustawienia*).
+
+The interface is currently in Polish.
+
+## Feedback
+
+Found a bug or missing something? [Open an issue](https://github.com/D3anDark/edunote-releases/issues).
