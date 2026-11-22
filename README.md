@@ -62,24 +62,27 @@ every case.
 - **Mixed notes**: A4 pages with typed text and handwriting together. Pen, highlighter, eraser and lasso; plain, lined,
   squared or dotted paper. A held stroke straightens into a line, ellipse or rectangle. Import a PDF as page background,
   export to PDF with real text and the ink on top.
-- **Text notes**: Markdown shown as you type, like Obsidian. LaTeX formulas, Mermaid flowcharts, tables edited in
-  place, images, checklists and a slide-by-slide presentation mode.
-- **PDF reader beside the note**: search, highlights in six colours, quotes with a link to the page, the book's own page
-  numbers. Scans can be recognised with OCR on the computer (needs [Tesseract](https://tesseract-ocr.github.io/)).
+- **Text notes**: Markdown shown as you type, like Obsidian. LaTeX formulas, tables edited in
+  place, images, checklists, a slide-by-slide presentation mode and a reading view (Ctrl+E) that shows the note as a
+  finished page. [Preview a Markdown file](https://deandark.me/EduNote/en#preview) on the website to see how EduNote
+  shows it.
+- **PDF reader beside the note**: search, highlights in six colors, quotes with a link to the page, the book's own page
+  numbers. Scans are recognized by the built-in OCR (PaddleOCR), with nothing to install.
 - **Order**: folders, pins, `#tags`, `[[links]]` between notes, full-text search, a trash kept for 30 days and templates
   (lecture, Cornell method, lab report, lesson plan, test and more).
 - **Review**: tasks with due dates collected from all notes, flashcards from `question :: answer` lines and
   `{{cloze}}` gaps with spaced repetition, every highlight in one list.
-- **AI assistant**: Gemini, Claude or any OpenAI-compatible server, including local ones like Ollama and LM Studio, with
-  your own key.
+- **AI assistant**: a button on the note toolbar summarizes the note, makes flashcards from it, explains it more simply
+  and quizzes you like a tutor; each note keeps its chats. Gemini, Claude or any OpenAI-compatible server, including
+  local ones like Ollama and LM Studio, with your own key. Nothing is sent until you set it up.
 
 ## Your data
 
 Notes stay on your device in a local database; the app keeps no account and no cloud copy. It goes online only to the
 AI provider you set up and to this page to check for updates. A backup zip, a daily backup inside the app and export to
-Markdown files are in *Settings* (*Ustawienia*).
+Markdown files are in *Settings*.
 
-The interface is currently in Polish.
+The app is in English and Polish: it follows your system language and falls back to English.
 
 ## Feedback
 

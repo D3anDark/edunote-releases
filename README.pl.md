@@ -62,16 +62,19 @@ następnym starcie uruchamia się nowa wersja. Windows i macOS dostają link tut
 - **Notatki mieszane**: strony A4 z tekstem i pismem odręcznym razem. Pióro, zakreślacz, gumka i lasso; kartka czysta,
   w linie, w kratkę lub w kropki. Przytrzymana kreska prostuje się w odcinek, elipsę albo prostokąt. Import PDF jako
   podkład stron, eksport do PDF z prawdziwym tekstem i tuszem na wierzchu.
-- **Notatki tekstowe**: Markdown widoczny od razu, jak w Obsidianie. Wzory LaTeX, schematy blokowe Mermaid, tabele
-  edytowane w miejscu, obrazy, listy zadań i prezentacja slajd po slajdzie.
+- **Notatki tekstowe**: Markdown widoczny od razu, jak w Obsidianie. Wzory LaTeX, tabele
+  edytowane w miejscu, obrazy, listy zadań, prezentacja slajd po slajdzie i tryb czytania (Ctrl+E), w którym notatka
+  wygląda jak gotowa strona. [Podgląd pliku Markdown](https://deandark.me/EduNote/#preview) na stronie pokazuje, jak
+  EduNote wyświetli Twój plik.
 - **Czytnik PDF obok notatki**: szukanie, zakreślenia w sześciu kolorach, cytaty z odsyłaczem do strony, numeracja
-  z książki. Skany rozpoznaje OCR na komputerze (potrzebny [Tesseract](https://tesseract-ocr.github.io/)).
+  z książki. Skany rozpoznaje wbudowany OCR (PaddleOCR), bez instalowania czegokolwiek.
 - **Porządek**: foldery, przypinanie, `#tagi`, `[[linki]]` między notatkami, wyszukiwanie pełnotekstowe, kosz na 30 dni
   i szablony (wykład, metoda Cornella, sprawozdanie, konspekt lekcji, sprawdzian i inne).
 - **Powtórki**: zadania z terminami zebrane ze wszystkich notatek, fiszki z linii `pytanie :: odpowiedź` i luk
   `{{tak}}` z powtórkami w odstępach, wszystkie zakreślenia na jednej liście.
-- **Asystent AI**: Gemini, Claude albo dowolny serwer zgodny z OpenAI, także lokalny, jak Ollama i LM Studio, z Twoim
-  kluczem.
+- **Asystent AI**: przycisk na pasku notatki streszcza ją, robi z niej fiszki, tłumaczy prościej i odpytuje jak
+  korepetytor, a każda notatka pamięta swoje rozmowy. Gemini, Claude albo dowolny serwer zgodny z OpenAI, także
+  lokalny, jak Ollama i LM Studio, z Twoim kluczem. Nic nie jest wysyłane, dopóki go nie skonfigurujesz.
 
 ## Twoje dane
 
@@ -79,7 +82,7 @@ Notatki zostają na urządzeniu, w lokalnej bazie; aplikacja nie ma konta ani ko
 dostawcą AI, którego ustawisz, i z tą stroną, żeby sprawdzić aktualizacje. Kopia zapasowa w pliku zip, codzienna kopia
 w aplikacji i eksport do plików Markdown są w *Ustawieniach*.
 
-Interfejs jest na razie po polsku.
+Aplikacja jest po polsku i po angielsku: wybiera język systemu, a gdy go nie zna, angielski.
 
 ## Uwagi
 
