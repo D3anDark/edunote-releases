@@ -58,7 +58,9 @@ Wersje na Windows i macOS są budowane przy każdym wydaniu, ale nie były jeszc
 
 Aplikacja przy starcie sprawdza tę stronę i proponuje nową wersję, gdy taka jest; *Ustawienia*, *Aktualizacje*
 sprawdzają na żądanie. Na Androidzie pobiera APK i otwiera systemowy instalator, AppImage podmienia sam siebie i przy
-następnym starcie uruchamia się nowa wersja. Windows i macOS dostają link tutaj. Notatki zostają w każdym przypadku.
+następnym starcie uruchamia się nowa wersja. Na Windows (od wersji 1.2.0) pobiera zip i podmienia folder aplikacji po
+zamknięciu EduNote; folder musi być zapisywalny, więc nie *Program Files*. macOS dostaje link tutaj. Notatki zostają
+w każdym przypadku.
 
 ## Co potrafi
 

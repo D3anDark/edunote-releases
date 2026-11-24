@@ -57,8 +57,9 @@ Windows and macOS builds are compiled on every release but not yet tested on rea
 
 The app checks this page when it starts and offers a new version when there is one; *Settings* (*Ustawienia*),
 *Updates* (*Aktualizacje*) checks on demand. On Android it downloads the APK and opens the system installer; the
-AppImage replaces itself and starts as the new version next time. Windows and macOS link here. Your notes stay in
-every case.
+AppImage replaces itself and starts as the new version next time. On Windows (from version 1.2.0) it downloads the zip
+and swaps the app folder once you close EduNote; the folder must be one you can write to, so not *Program Files*.
+macOS links here. Your notes stay in every case.
 
 ## What it does
 
