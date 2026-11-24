@@ -48,7 +48,7 @@ choose *More info*, then *Run anyway*.
 **macOS.** Unzip and move `edunote.app` to *Applications*. The app is not signed: if macOS blocks it, open
 *System Settings*, *Privacy & Security*, and choose *Open Anyway*.
 
-The macOS download is version 1.1.0 for now: the 1.2.0 build could not fetch ONNX Runtime from Microsoft's download
+The macOS download is version 1.1.0 for now: the 1.2.0 and 1.2.1 builds could not fetch ONNX Runtime from Microsoft's download
 server. The next release brings macOS up to date.
 
 Windows and macOS builds are compiled on every release but not yet tested on real machines.
@@ -86,11 +86,13 @@ macOS links here. Your notes stay in every case.
 ## Your data
 
 Notes stay on your device in a local database; the app keeps no account and no cloud copy. It goes online only to the
-AI provider you set up and to this page to check for updates. A backup zip, a daily backup inside the app and export to
+AI provider you set up, to this page to check for updates, and to the report server when you send a report. A backup zip, a daily backup inside the app and export to
 Markdown files are in *Settings*.
 
 The app is in English and Polish: it follows your system language and falls back to English.
 
 ## Feedback
 
-Found a bug or missing something? [Open an issue](https://github.com/D3anDark/edunote-releases/issues).
+Found a bug or missing something? In the app, open *Settings* and *Report a bug or an idea*; no account needed. The
+same form is on the [help page](https://deandark.me/EduNote/en/docs/help#report). With a GitHub account you can also
+[open an issue](https://github.com/D3anDark/edunote-releases/issues).

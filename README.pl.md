@@ -49,7 +49,7 @@ może ostrzec: wybierz *Więcej informacji*, potem *Uruchom mimo to*.
 **macOS.** Rozpakuj i przenieś `edunote.app` do *Aplikacji*. Aplikacja nie jest podpisana: jeśli macOS ją zablokuje,
 otwórz *Ustawienia systemowe*, *Prywatność i ochrona*, i wybierz *Otwórz mimo to*.
 
-Wersja na macOS to na razie 1.1.0: build 1.2.0 nie mógł pobrać ONNX Runtime z serwera Microsoftu. Następne wydanie
+Wersja na macOS to na razie 1.1.0: buildy 1.2.0 i 1.2.1 nie mogły pobrać ONNX Runtime z serwera Microsoftu. Następne wydanie
 przyniesie aktualną wersję na macOS.
 
 Wersje na Windows i macOS są budowane przy każdym wydaniu, ale nie były jeszcze sprawdzone na prawdziwym komputerze.
@@ -87,11 +87,14 @@ w każdym przypadku.
 ## Twoje dane
 
 Notatki zostają na urządzeniu, w lokalnej bazie; aplikacja nie ma konta ani kopii w chmurze. Łączy się tylko z
-dostawcą AI, którego ustawisz, i z tą stroną, żeby sprawdzić aktualizacje. Kopia zapasowa w pliku zip, codzienna kopia
+dostawcą AI, którego ustawisz, z tą stroną, żeby sprawdzić aktualizacje, i z serwerem zgłoszeń, gdy wyślesz
+zgłoszenie. Kopia zapasowa w pliku zip, codzienna kopia
 w aplikacji i eksport do plików Markdown są w *Ustawieniach*.
 
 Aplikacja jest po polsku i po angielsku: wybiera język systemu, a gdy go nie zna, angielski.
 
 ## Uwagi
 
-Znalazłeś błąd albo czegoś brakuje? [Zgłoś to tutaj](https://github.com/D3anDark/edunote-releases/issues).
+Znalazłeś błąd albo czegoś brakuje? W aplikacji otwórz *Ustawienia* i *Zgłoś błąd albo pomysł*; konto nie jest
+potrzebne. Ten sam formularz jest na [stronie pomocy](https://deandark.me/EduNote/docs/help#report). Z kontem GitHub
+możesz też [założyć zgłoszenie](https://github.com/D3anDark/edunote-releases/issues).
