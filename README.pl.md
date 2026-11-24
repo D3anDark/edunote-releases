@@ -68,7 +68,10 @@ następnym starcie uruchamia się nowa wersja. Windows i macOS dostają link tut
 - **Notatki tekstowe**: Markdown widoczny od razu, jak w Obsidianie. Wzory LaTeX, tabele
   edytowane w miejscu, obrazy, listy zadań, prezentacja slajd po slajdzie i tryb czytania (Ctrl+E), w którym notatka
   wygląda jak gotowa strona. [Podgląd pliku Markdown](https://deandark.me/EduNote/#preview) na stronie pokazuje, jak
-  EduNote wyświetli Twój plik.
+  EduNote wyświetli Twój plik. Skróty działają jak w innych edytorach: Tab i Shift+Tab przesuwają punkt listy o poziom,
+  Ctrl+H szuka i zastępuje, Alt+strzałki w górę/dół przesuwają linie.
+- **Otwórz za pomocą EduNote**: plik `.md` z menedżera plików otwiera się jako notatka, a otwarty ponownie wraca do tej
+  samej notatki. Plik na dysku zostaje bez zmian.
 - **Czytnik PDF obok notatki**: szukanie, zakreślenia w sześciu kolorach, cytaty z odsyłaczem do strony, numeracja
   z książki. Skany rozpoznaje wbudowany OCR (PaddleOCR), bez instalowania czegokolwiek.
 - **Porządek**: foldery, przypinanie, `#tagi`, `[[linki]]` między notatkami, wyszukiwanie pełnotekstowe, kosz na 30 dni

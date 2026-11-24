@@ -68,7 +68,10 @@ every case.
 - **Text notes**: Markdown shown as you type, like Obsidian. LaTeX formulas, tables edited in
   place, images, checklists, a slide-by-slide presentation mode and a reading view (Ctrl+E) that shows the note as a
   finished page. [Preview a Markdown file](https://deandark.me/EduNote/en#preview) on the website to see how EduNote
-  shows it.
+  shows it. Shortcuts work as in other editors: Tab and Shift+Tab move a list item a level, Ctrl+H finds and
+  replaces, Alt+Up/Down move lines.
+- **Open with EduNote**: a `.md` file from the file manager opens as a note, and opening it again brings back the same
+  note. The file on disk stays as it was.
 - **PDF reader beside the note**: search, highlights in six colors, quotes with a link to the page, the book's own page
   numbers. Scans are recognized by the built-in OCR (PaddleOCR), with nothing to install.
 - **Order**: folders, pins, `#tags`, `[[links]]` between notes, full-text search, a trash kept for 30 days and templates
