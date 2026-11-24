@@ -25,7 +25,7 @@
 | Android (x86_64, emulator) | `app-x86_64-release.apk` | [Pobierz](https://github.com/D3anDark/edunote-releases/releases/latest/download/app-x86_64-release.apk) |
 | Linux (x86_64) | `EduNote-x86_64.AppImage` | [Pobierz](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-x86_64.AppImage) |
 | Windows (x64) | `EduNote-windows-x64.zip` | [Pobierz](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-windows-x64.zip) |
-| macOS | `EduNote-macos.zip` | [Pobierz](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-macos.zip) |
+| macOS | `EduNote-macos.zip` | [Pobierz (1.1.0)](https://github.com/D3anDark/edunote-releases/releases/download/v1.1.0/EduNote-macos.zip) |
 
 Wszystkie wersje, z opisem zmian, są na [stronie wydań](https://github.com/D3anDark/edunote-releases/releases).
 
@@ -48,6 +48,9 @@ może ostrzec: wybierz *Więcej informacji*, potem *Uruchom mimo to*.
 
 **macOS.** Rozpakuj i przenieś `edunote.app` do *Aplikacji*. Aplikacja nie jest podpisana: jeśli macOS ją zablokuje,
 otwórz *Ustawienia systemowe*, *Prywatność i ochrona*, i wybierz *Otwórz mimo to*.
+
+Wersja na macOS to na razie 1.1.0: build 1.2.0 nie mógł pobrać ONNX Runtime z serwera Microsoftu. Następne wydanie
+przyniesie aktualną wersję na macOS.
 
 Wersje na Windows i macOS są budowane przy każdym wydaniu, ale nie były jeszcze sprawdzone na prawdziwym komputerze.
 
