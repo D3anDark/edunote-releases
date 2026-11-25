@@ -25,7 +25,7 @@
 | Android (x86_64, emulator) | `app-x86_64-release.apk` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/app-x86_64-release.apk) |
 | Linux (x86_64) | `EduNote-x86_64.AppImage` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-x86_64.AppImage) |
 | Windows (x64) | `EduNote-windows-x64.zip` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-windows-x64.zip) |
-| macOS | `EduNote-macos.zip` | [Download (1.1.0)](https://github.com/D3anDark/edunote-releases/releases/download/v1.1.0/EduNote-macos.zip) |
+| macOS | `EduNote-macos.zip` | [Download](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-macos.zip) |
 
 Every version, with what changed, is on the [releases page](https://github.com/D3anDark/edunote-releases/releases).
 
@@ -48,9 +48,6 @@ choose *More info*, then *Run anyway*.
 **macOS.** Unzip and move `edunote.app` to *Applications*. The app is not signed: if macOS blocks it, open
 *System Settings*, *Privacy & Security*, and choose *Open Anyway*.
 
-The macOS download is version 1.1.0 for now: the 1.2.0 and 1.2.1 builds could not fetch ONNX Runtime from Microsoft's download
-server. The next release brings macOS up to date.
-
 Windows and macOS builds are compiled on every release but not yet tested on real machines.
 
 ## Updates
@@ -63,9 +60,10 @@ macOS links here. Your notes stay in every case.
 
 ## What it does
 
-- **Mixed notes**: A4 pages with typed text and handwriting together. Pen, highlighter, eraser and lasso; plain, lined,
-  squared or dotted paper. A held stroke straightens into a line, ellipse or rectangle. Import a PDF as page background,
-  export to PDF with real text and the ink on top.
+- **Mixed notes**: pages with typed text and handwriting together, A4 or A3, A5, B5, Letter and Legal, upright or
+  landscape. Pen, highlighter, eraser and lasso; plain, lined, squared or dotted paper with rules 5 to 10 mm apart.
+  Share a note as PDF or as a `.mdink` file that keeps its pages and ink. A held stroke straightens into a line,
+  ellipse or rectangle. Import a PDF as page background, export to PDF with real text and the ink on top.
 - **Text notes**: Markdown shown as you type, like Obsidian. LaTeX formulas, tables edited in
   place, images, checklists, a slide-by-slide presentation mode and a reading view (Ctrl+E) that shows the note as a
   finished page. [Preview a Markdown file](https://deandark.me/EduNote/en#preview) on the website to see how EduNote

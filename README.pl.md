@@ -25,7 +25,7 @@
 | Android (x86_64, emulator) | `app-x86_64-release.apk` | [Pobierz](https://github.com/D3anDark/edunote-releases/releases/latest/download/app-x86_64-release.apk) |
 | Linux (x86_64) | `EduNote-x86_64.AppImage` | [Pobierz](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-x86_64.AppImage) |
 | Windows (x64) | `EduNote-windows-x64.zip` | [Pobierz](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-windows-x64.zip) |
-| macOS | `EduNote-macos.zip` | [Pobierz (1.1.0)](https://github.com/D3anDark/edunote-releases/releases/download/v1.1.0/EduNote-macos.zip) |
+| macOS | `EduNote-macos.zip` | [Pobierz](https://github.com/D3anDark/edunote-releases/releases/latest/download/EduNote-macos.zip) |
 
 Wszystkie wersje, z opisem zmian, są na [stronie wydań](https://github.com/D3anDark/edunote-releases/releases).
 
@@ -49,9 +49,6 @@ może ostrzec: wybierz *Więcej informacji*, potem *Uruchom mimo to*.
 **macOS.** Rozpakuj i przenieś `edunote.app` do *Aplikacji*. Aplikacja nie jest podpisana: jeśli macOS ją zablokuje,
 otwórz *Ustawienia systemowe*, *Prywatność i ochrona*, i wybierz *Otwórz mimo to*.
 
-Wersja na macOS to na razie 1.1.0: buildy 1.2.0 i 1.2.1 nie mogły pobrać ONNX Runtime z serwera Microsoftu. Następne wydanie
-przyniesie aktualną wersję na macOS.
-
 Wersje na Windows i macOS są budowane przy każdym wydaniu, ale nie były jeszcze sprawdzone na prawdziwym komputerze.
 
 ## Aktualizacje
@@ -64,9 +61,10 @@ w każdym przypadku.
 
 ## Co potrafi
 
-- **Notatki mieszane**: strony A4 z tekstem i pismem odręcznym razem. Pióro, zakreślacz, gumka i lasso; kartka czysta,
-  w linie, w kratkę lub w kropki. Przytrzymana kreska prostuje się w odcinek, elipsę albo prostokąt. Import PDF jako
-  podkład stron, eksport do PDF z prawdziwym tekstem i tuszem na wierzchu.
+- **Notatki mieszane**: strony z tekstem i pismem odręcznym razem, A4 albo A3, A5, B5, Letter i Legal, pionowo lub
+  poziomo. Pióro, zakreślacz, gumka i lasso; kartka czysta, w linie, w kratkę lub w kropki, co 5 do 10 mm. Notatkę
+  udostępnisz jako PDF albo plik `.mdink` z jej stronami i tuszem. Przytrzymana kreska prostuje się w odcinek, elipsę
+  albo prostokąt. Import PDF jako podkład stron, eksport do PDF z prawdziwym tekstem i tuszem na wierzchu.
 - **Notatki tekstowe**: Markdown widoczny od razu, jak w Obsidianie. Wzory LaTeX, tabele
   edytowane w miejscu, obrazy, listy zadań, prezentacja slajd po slajdzie i tryb czytania (Ctrl+E), w którym notatka
   wygląda jak gotowa strona. [Podgląd pliku Markdown](https://deandark.me/EduNote/#preview) na stronie pokazuje, jak
