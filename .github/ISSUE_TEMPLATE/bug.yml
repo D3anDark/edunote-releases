@@ -1,0 +1,19 @@
+name: Błąd / Bug
+description: Coś nie działa / Something does not work
+labels: [bug]
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: Co się stało? / What happened?
+      description: Co robiłeś, czego się spodziewałeś i co zobaczyłeś. / What you did, what you expected and what you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Wersja i system / Version and system
+      description: Aplikacja wypełnia to sama. Na stronie wpisz wersję EduNote i system. / The app fills this in. Otherwise give the EduNote version and system.
+      render: text
+    validations:
+      required: true

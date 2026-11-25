@@ -95,6 +95,6 @@ Aplikacja jest po polsku i po angielsku: wybiera język systemu, a gdy go nie zn
 
 ## Uwagi
 
-Znalazłeś błąd albo czegoś brakuje? W aplikacji otwórz *Ustawienia* i *Zgłoś błąd albo pomysł*; konto nie jest
-potrzebne. Ten sam formularz jest na [stronie pomocy](https://deandark.me/EduNote/docs/help#report). Z kontem GitHub
-możesz też [założyć zgłoszenie](https://github.com/D3anDark/edunote-releases/issues).
+Znalazłeś błąd albo czegoś brakuje? Najlepiej [załóż zgłoszenie na GitHubie](https://github.com/D3anDark/edunote-releases/issues/new/choose):
+tam zobaczysz odpowiedź i postęp. Bez konta wyślij je z aplikacji (*Ustawienia*, *Zgłoś błąd albo pomysł*) albo ze
+[strony pomocy](https://deandark.me/EduNote/docs/help#report).

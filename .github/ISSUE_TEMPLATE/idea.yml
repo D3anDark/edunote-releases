@@ -1,0 +1,10 @@
+name: Pomysł / Idea
+description: Co by się przydało / What would help
+labels: [enhancement]
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: Co by się przydało? / What would help?
+    validations:
+      required: true

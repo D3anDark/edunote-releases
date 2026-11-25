@@ -93,6 +93,6 @@ The app is in English and Polish: it follows your system language and falls back
 
 ## Feedback
 
-Found a bug or missing something? In the app, open *Settings* and *Report a bug or an idea*; no account needed. The
-same form is on the [help page](https://deandark.me/EduNote/en/docs/help#report). With a GitHub account you can also
-[open an issue](https://github.com/D3anDark/edunote-releases/issues).
+Found a bug or missing something? Preferably [open an issue on GitHub](https://github.com/D3anDark/edunote-releases/issues/new/choose):
+you can follow the answer and progress there. Without an account, send it from the app (*Settings*, *Report a bug or
+an idea*) or from the [help page](https://deandark.me/EduNote/en/docs/help#report).
